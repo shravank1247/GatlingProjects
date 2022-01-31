@@ -1,0 +1,5 @@
+RUN	com.gatling.tests.AvocetWebAPI	avocetwebapi	1643644584404	 	3.6.1
+USER	Login with AppID	START	1643644586741
+REQUEST		GetApps	1643644586781	1643644587662	KO	jsonPath($[0].Id).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (SequenceInputStream); line: 1, column: 2]
+ERROR	login using appid: Failed to build request: No attribute named 'appidpara' is defined 	1643644587779
+USER	Login with AppID	END	1643644587781

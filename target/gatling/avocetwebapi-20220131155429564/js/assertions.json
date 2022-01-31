@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.AvocetWebAPI",
+  "simulationId": "avocetwebapi",
+  "start": 1643644469564,
+  "description": "",
+  "scenarios": ["Login with AppID"],
+  "assertions": [
+
+  ]
+}
