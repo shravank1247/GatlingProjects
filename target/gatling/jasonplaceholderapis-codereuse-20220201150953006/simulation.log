@@ -1,0 +1,8 @@
+RUN	com.gatling.tests.JasonPlaceholderAPIs_CodeReuse	jasonplaceholderapis-codereuse	1643728193006	 	3.6.1
+USER	using reusable code for JosnPlaceholderAPIs	START	1643728195266
+REQUEST		GetAResource	1643728195312	1643728195418	OK	 
+REQUEST		GetAllResources	1643728196535	1643728196568	OK	 
+REQUEST		PostAResource	1643728197571	1643728198285	OK	 
+REQUEST		UpdateAResource	1643728199291	1643728199914	OK	 
+REQUEST		DeletingAResource	1643728200923	1643728201519	OK	 
+USER	using reusable code for JosnPlaceholderAPIs	END	1643728201523

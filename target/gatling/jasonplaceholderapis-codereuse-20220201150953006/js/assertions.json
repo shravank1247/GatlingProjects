@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.JasonPlaceholderAPIs_CodeReuse",
+  "simulationId": "jasonplaceholderapis-codereuse",
+  "start": 1643728193006,
+  "description": "",
+  "scenarios": ["using reusable code for JosnPlaceholderAPIs"],
+  "assertions": [
+
+  ]
+}

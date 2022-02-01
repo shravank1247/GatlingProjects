@@ -1,0 +1,13 @@
+RUN	com.gatling.tests.JsonPlaceholderAPIs_CSVFeeder	jsonplaceholderapis-csvfeeder	1643729124155	 	3.6.1
+ERROR	GetAResource: Failed to build request: No attribute named 'id' is defined 	1643729125987
+USER	using csv feeder code for JosnPlaceholderAPIs	START	1643729125954
+ERROR	GetAResource: Failed to build request: No attribute named 'id' is defined 	1643729125992
+ERROR	GetAResource: Failed to build request: No attribute named 'id' is defined 	1643729125992
+ERROR	GetAResource: Failed to build request: No attribute named 'id' is defined 	1643729125992
+ERROR	GetAResource: Failed to build request: No attribute named 'id' is defined 	1643729125992
+ERROR	GetAResource: Failed to build request: No attribute named 'id' is defined 	1643729125993
+ERROR	GetAResource: Failed to build request: No attribute named 'id' is defined 	1643729125993
+ERROR	GetAResource: Failed to build request: No attribute named 'id' is defined 	1643729125993
+ERROR	GetAResource: Failed to build request: No attribute named 'id' is defined 	1643729125994
+ERROR	GetAResource: Failed to build request: No attribute named 'id' is defined 	1643729125994
+USER	using csv feeder code for JosnPlaceholderAPIs	END	1643729126004

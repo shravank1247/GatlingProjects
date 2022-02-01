@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.JsonPlaceholderAPIs_CSVFeeder",
+  "simulationId": "jsonplaceholderapis-csvfeeder",
+  "start": 1643729203875,
+  "description": "",
+  "scenarios": ["using csv feeder code for JosnPlaceholderAPIs"],
+  "assertions": [
+
+  ]
+}

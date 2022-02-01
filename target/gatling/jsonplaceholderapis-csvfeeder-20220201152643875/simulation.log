@@ -1,0 +1,13 @@
+RUN	com.gatling.tests.JsonPlaceholderAPIs_CSVFeeder	jsonplaceholderapis-csvfeeder	1643729203875	 	3.6.1
+USER	using csv feeder code for JosnPlaceholderAPIs	START	1643729205696
+REQUEST		GetAResource	1643729205801	1643729206119	KO	Check validator resolution crashed: No attribute named 'userId' is defined
+REQUEST		GetAResource	1643729206184	1643729206853	KO	Check validator resolution crashed: No attribute named 'userId' is defined
+REQUEST		GetAResource	1643729206855	1643729207526	KO	Check validator resolution crashed: No attribute named 'userId' is defined
+REQUEST		GetAResource	1643729207541	1643729207615	OK	 
+REQUEST		GetAResource	1643729207624	1643729207699	OK	 
+REQUEST		GetAResource	1643729207702	1643729207771	OK	 
+REQUEST		GetAResource	1643729207773	1643729207844	OK	 
+REQUEST		GetAResource	1643729207846	1643729207909	OK	 
+REQUEST		GetAResource	1643729207911	1643729208006	OK	 
+REQUEST		GetAResource	1643729208007	1643729208087	OK	 
+USER	using csv feeder code for JosnPlaceholderAPIs	END	1643729208096
