@@ -34,7 +34,7 @@ class JsonPlaceholderAPIs extends Simulation {
 
   val scn2 = scenario("Create/Update/Delete a resource")
     .exec(http("PostAResource")
-      .post("/")
+      .post("")
       .formParam("title","test123")
       .formParam("body","test123body")
       .formParam("userId","10")
@@ -44,10 +44,15 @@ class JsonPlaceholderAPIs extends Simulation {
     .exec(http("UpdateAResource")
       .put("/100")
       .formParam("title","test1")
-      .formParam("body","test1body")
+      .formParam("body","test1")
       .formParam("userId","1")
       .check(status.is("200"))
-      .check(jsonPath("$.id").is("100")))
+      .check(jsonPath("$.id").is("100").saveAs("postedId")))
+
+    .exec(http("GetAResourceUpdated")
+      .get("")
+      .formParam("id","${postedId}")
+      .check(jsonPath("$[0].id").is("100")))
 
     .exec(http("DeletingAResource")
       .delete("/100")

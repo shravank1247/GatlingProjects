@@ -1,0 +1,11 @@
+RUN	com.gatling.tests.JsonPlaceholderAPIs	jsonplaceholderapis	1643706015167	 	3.6.1
+USER	Create/Update/Delete a resource	START	1643706017253
+USER	Sample GET calls for resources	START	1643706017253
+REQUEST		GetAResource	1643706017319	1643706017680	OK	 
+REQUEST		GetAllResources	1643706017763	1643706017848	OK	 
+USER	Sample GET calls for resources	END	1643706017852
+REQUEST		PostAResource	1643706017319	1643706018183	KO	status.find.is(201), but actually found 500
+REQUEST		UpdateAResource	1643706018229	1643706018828	KO	status.find.is(200), but actually found 500
+REQUEST		GetAResourceUpdated	1643706018830	1643706018925	KO	jsonPath($[0].id).find.is(100), but actually found 1
+REQUEST		DeletingAResource	1643706019019	1643706019617	OK	 
+USER	Create/Update/Delete a resource	END	1643706019618

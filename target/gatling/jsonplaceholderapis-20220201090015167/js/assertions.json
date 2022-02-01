@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.JsonPlaceholderAPIs",
+  "simulationId": "jsonplaceholderapis",
+  "start": 1643706015167,
+  "description": "",
+  "scenarios": ["Sample GET calls for resources", "Create/Update/Delete a resource"],
+  "assertions": [
+
+  ]
+}

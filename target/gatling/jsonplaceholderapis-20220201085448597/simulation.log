@@ -1,0 +1,11 @@
+RUN	com.gatling.tests.JsonPlaceholderAPIs	jsonplaceholderapis	1643705688597	 	3.6.1
+USER	Sample GET calls for resources	START	1643705690405
+USER	Create/Update/Delete a resource	START	1643705690405
+REQUEST		GetAResource	1643705690479	1643705690818	OK	 
+REQUEST		GetAllResources	1643705690910	1643705691001	OK	 
+USER	Sample GET calls for resources	END	1643705691006
+REQUEST		PostAResource	1643705690479	1643705691439	KO	status.find.is(201), but actually found 500
+REQUEST		UpdateAResource	1643705691470	1643705692225	KO	status.find.is(200), but actually found 500
+ERROR	GetAResourceUpdated: Failed to build request: No attribute named 'postedId' is defined 	1643705692230
+REQUEST		DeletingAResource	1643705692231	1643705692834	OK	 
+USER	Create/Update/Delete a resource	END	1643705692836
