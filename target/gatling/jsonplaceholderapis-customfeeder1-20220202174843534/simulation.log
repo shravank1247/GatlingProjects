@@ -1,0 +1,7 @@
+RUN	com.gatling.tests.JsonPlaceholderAPIs_CustomFeeder1	jsonplaceholderapis-customfeeder1	1643824123534	 	3.6.1
+USER	using custom feeder code for JosnPlaceholderAPIs	START	1643824125376
+REQUEST		GetAResource	1643824125455	1643824125458	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		GetAResource	1643824125555	1643824125560	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		GetAResource	1643824125564	1643824125568	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		GetAResource	1643824125572	1643824125574	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		GetAResource	1643824125577	1643824125579	KO	j.n.ConnectException: Connection refused: no further information

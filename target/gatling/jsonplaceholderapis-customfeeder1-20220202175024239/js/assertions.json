@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.JsonPlaceholderAPIs_CustomFeeder1",
+  "simulationId": "jsonplaceholderapis-customfeeder1",
+  "start": 1643824224239,
+  "description": "",
+  "scenarios": ["using custom feeder code for JosnPlaceholderAPIs"],
+  "assertions": [
+
+  ]
+}
